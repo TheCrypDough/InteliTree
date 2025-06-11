@@ -1,0 +1,65 @@
+# Node / Bun / pnpm
+node_modules/
+.DS_Store
+
+# Build outputs
+dist/
+build/
+out/
+
+# Logs (relative to StuckAI/ directory)
+Docs/logs/
+!Docs/logs/.gitkeep
+Docs/daily_progress/
+!Docs/daily_progress/.gitkeep
+*.log
+
+# IDE & System files
+.vscode/
+.idea/
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Environment files
+.env
+.env.*
+!.env.example
+App_Code/config/.env
+
+# PNPM
+pnpm-lock.yaml
+
+# Electron specific (paths relative to StuckAI/)
+App_Code/desktop-app/app-builds/
+App_Code/desktop-app/*.asar
+App_Code/desktop-app/*.pak
+
+# Next.js (paths relative to StuckAI/)
+App_Code/dashboard-webapp/.next/
+App_Code/dashboard-webapp/out/
+
+# Bun
+.bun/
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Cursor AI - keep rules, ignore others if any new ones appear
+.cursor/*
+!.cursor/rules/
+
+# Test & Coverage
+coverage/
+.nyc_output/
+
+# Specific to local Supabase via Docker (assuming infra is at StuckAI/infra/)
+infra/supabase/volumes/
+
+# Specific to local Neo4j via Docker (assuming infra is at StuckAI/infra/)
+infra/neo4j/data/
+infra/neo4j/logs/
+
+# Specific to local LiteLLM via Docker (assuming infra is at StuckAI/infra/)
+infra/litellm/litellm_config.yaml
