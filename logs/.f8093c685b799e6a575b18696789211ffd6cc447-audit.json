@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "c:\\InteliTree\\InteliTree\\logs\\.f8093c685b799e6a575b18696789211ffd6cc447-audit.json",
+    "files": [
+        {
+            "date": 1749619666868,
+            "name": "c:\\InteliTree\\InteliTree\\logs\\mcp-puppeteer-2025-06-11.log",
+            "hash": "972feb26329ad38471aa17f983b7c212b7fd0273b62fc8366e10c719f648cf30"
+        }
+    ],
+    "hashType": "sha256"
+}
